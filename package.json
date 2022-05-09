@@ -1,0 +1,33 @@
+{
+  "name": "img-to-ascii",
+  "version": "1.0.0",
+  "description": "Convert image to ascii art",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "live-server --entry-file=./example/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bulzaj/img-to-ascii.git"
+  },
+  "keywords": [
+    "ascii",
+    "art",
+    "image",
+    "converter"
+  ],
+  "author": "Ernest Sado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bulzaj/img-to-ascii/issues"
+  },
+  "homepage": "https://github.com/Bulzaj/img-to-ascii#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
